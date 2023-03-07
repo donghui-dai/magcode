@@ -1,4 +1,4 @@
-## MagCode: NFC-Enabled Barcodes for NFC-Disabled Smartphones
+## MagCode: NFC-Enabled Barcodes for. NFC-Disabled Smartphones
 
 Mobile payment has achieved explosive growth in recent years due to its contactless feature, which lowers the infection risk of COVID-19. In the market, near-field communication (NFC) and barcodes have become the de facto standard technologies for mobile payment. The NFC-based payment outperforms barcode-based payment in terms of security, usability, and convenience. It is especially more user-friendly for the amblyopia group. Unfortunately,  NFC functionality is unavailable in nearly half of smartphones in the market nowadays due to the shortage of NFC modules or being disabled for security reasons. 
 
