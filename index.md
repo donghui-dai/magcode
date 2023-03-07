@@ -6,7 +6,7 @@ In this work, we present MagCode, a cross-technology communication between an NF
 
 ## Demo
 
-<iframe width="560" height="315" src="https://youtu.be/4V5sG44i0hM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4V5sG44i0hM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## Paper
