@@ -1,20 +1,22 @@
-## Inducing Wireless Chargers to Voice Out
+## MagCode: NFC-Enabled Barcodes for NFC-Disabled Smartphones
 
-Recent work demonstrated that speech recognition systems or voice assistants can be manipulated by malicious voice commands, which are injected through various inaudible media, such as ultrasound, laser, and electromagnetic interference (EMI). In this work, we explore a new kind of inaudible voice attack through the magnetic interference induced by a wireless charger. Essentially, we show that the microphone components of smart devices suffer from severe magnetic interference when they are enjoying wireless charging, due to the absence of effective protection against the EMI at low frequencies (100 kHz or below). By taking advantage of this vulnerability, we design two inaudible voice attacks, HeartwormAttack and ParasiteAttack, both of which aim to inject malicious voice commands into smart devices being wirelessly charged. They make use of a compromised wireless charger or accessory equipment (called parasite) to inject the voice, respectively. We conduct extensive experiments with 17 victim devices (iPhone, Huawei, Samsung, etc.) and 6 types of voice assistants (Siri, Google STT, Bixby, etc.). Evaluation results demonstrate the feasibility of two proposed attacks with commercial charging settings.
+Mobile payment has achieved explosive growth in recent years due to its contactless feature, which lowers the infection risk of COVID-19. In the market, near-field communication (NFC) and barcodes have become the de facto standard technologies for mobile payment. The NFC-based payment outperforms barcode-based payment in terms of security, usability, and convenience. It is especially more user-friendly for the amblyopia group. Unfortunately,  NFC functionality is unavailable in nearly half of smartphones in the market nowadays due to the shortage of NFC modules or being disabled for security reasons. 
+
+In this work, we present MagCode, a cross-technology communication between an NFC reader and a camera, which allows customers to enjoy the high security and convenience of NFC-based payment and the pervasiveness of cameras. At the heart of MagCode is the harmless magnetic interference on the CMOS image sensor of a smartphone placed nearby the NFC reader, resulting in a group of barcode-like stripes appearing on the captured images. We take advantage of these stripes to encode the data and achieve simplex communication from an NFC reader to an NFC-denied or NFC-disabled smartphone. In particular, we design and implement a stack of protocols from the physical to the transport layer and test the proof-of-concept prototype across 11 smart devices. Extensive evaluations demonstrate a maximum throughput of 2.58 kbps, which outperforms the magnetometer-based solution by $58\times$. It takes 1.8 seconds on average to accomplish the data exchange between an NFC reader to a smartphone in relation to mobile payments.
 
 ## Demo
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7ezb_sGYCPI?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/4V5sG44i0hM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Paper
-
-    @inproceedings{dai2023inducing,
-      title={Inducing Wireless Chargers to Voice Out for Inaudible Command Attacks},
-      author={Dai, Donghui and An, Zhenlin and Yang, Lei},
-      booktitle = {2023 2023 IEEE Symposium on Security and Privacy (SP)},
-      year = {2023},
-      publisher = {IEEE Computer Society},
-      address = {Los Alamitos, CA, USA},
-      month = {may}
+    
+    @inproceedings{dai2023magcode,
+      title={MagCode: NFC-Enabled Barcodes for NFC-Disabled Smartphones},
+      author={Dai, Donghui and An, Zhenlin and Pan, Qingrui and Yang, Lei},
+      booktitle={Proceedings of the 29th Annual International Conference on Mobile Computing And Networking},
+      address = {Madrid, Spain},
+      year={2023}
     }
+    
+   
