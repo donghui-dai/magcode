@@ -4,9 +4,11 @@ Mobile payment has achieved explosive growth in recent years due to its contactl
 
 In this work, we present MagCode, a cross-technology communication between an NFC reader and a camera, which allows customers to enjoy the high security and convenience of NFC-based payment and the pervasiveness of cameras. At the heart of MagCode is the harmless magnetic interference on the CMOS image sensor of a smartphone placed nearby the NFC reader, resulting in a group of barcode-like stripes appearing on the captured images. We take advantage of these stripes to encode the data and achieve simplex communication from an NFC reader to an NFC-denied or NFC-disabled smartphone. In particular, we design and implement a stack of protocols from the physical to the transport layer and test the proof-of-concept prototype across 11 smart devices. Extensive evaluations demonstrate a maximum throughput of 2.58 kbps, which outperforms the magnetometer-based solution by `58x`. It takes 1.8 seconds on average to accomplish the data exchange between an NFC reader to a smartphone in relation to mobile payments.
 
-## Demo
+## Youtube Demo
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JoX5p2UUaE0" title="MobiCom 2023 Demo Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+## Bilibili Demo
+<iframe width="560" height="315" src="//player.bilibili.com/player.html?aid=273694967&bvid=BV1xc411c7Lg&cid=1203795231&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 ## Paper
     
